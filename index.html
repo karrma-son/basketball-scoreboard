@@ -1,0 +1,61 @@
+<html lang="en">
+   <title>Basketball Scoreboard</title>
+    <head>
+         <meta name="viewport" content="width=device-width"; charset=utf-8>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Basketball Scoreboard</h1>
+            <p1>HOME</p1>
+            <p2>AWAY</p2>
+            <h4 id="count-el1">0</h4>
+            <p id="foul-el1">0</p>
+            <h5 id="count-el2">0</h5>
+            <p id="foul-el2">0</p>
+            <br>
+            <p  id="game-clock">12:00</p>
+            <br>
+            <p id="shot-clock">24</p>
+            <br>
+            <p4 id="quarter1">1</p4>
+            <p5 id="quarter2">2</p5>
+            <p6 id="quarter3">3</p6>
+            <p7 id="quarter4">4</p7>
+           
+        </div>
+        <br>
+        <div class="container2">
+            <button id="increment-btn1" onclick="increment1()">+1</button>
+            <button id="increment-btn2" onclick="increment2()">+2</button>
+            <button id="increment-btn3" onclick="increment3()">+3</button>
+    
+            <button id="increment-btn6" onclick="increment6()">+3</button>
+            <button id="increment-btn5" onclick="increment5()">+2</button>
+            <button id="increment-btn4" onclick="increment4()">+1</button>
+        </div>
+            <button id="game-clock-btn" onclick="toggleGameClock()">GAME<br>CLOCK</button>
+        
+        <div class="container3">
+            <button id="foul1-btn" onclick="foul1()">HOME<br>FOUL</button>
+            <button id="foul2-btn" onclick="foul2()">AWAY<br>FOUL</button>
+            <button id="shot-clock-btn" onclick="clockDown()">SHOT<br>CLOCK</button>
+           <!--- clock display not needed --->
+            <br>
+             <button id="all-clock-btn" onclick="toggleAllClocks()">GAME/<br>SHOT</button>
+            <br>
+       
+            
+        </div>
+        <button id="reset-clock-btn" onclick="resetGameClock()">RESET</button>
+        <br>
+        <div class="score-el" id="clock">
+        </div>
+        
+             <!---  <button id="shot-clock-btn" onclick="countdown()">SHOT<br>START</button> --->
+            
+        <script src="index.js">
+            
+        </script>
+    </body>
+</html>

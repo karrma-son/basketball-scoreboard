@@ -1,0 +1,286 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+    height:150vh;
+   
+
+
+}
+
+.container {
+    background-color: rgba(14, 19, 44, 0.9);
+    max-width: 360px;
+    height: 250px;
+    margin: auto;
+    border: 16px double goldenrod; 
+    border-radius: 10px;
+    outline-style: double;
+    outline-color: black;
+    outline-width: 10px;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 19px;
+    background: rgb(255,255,255,.4);
+    color: goldenrod;
+    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 1px 3px 0 #000;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 69px;
+    border:12px solid black; 
+    border-radius: 10px;
+    width:200px ;
+
+}
+p1 {
+    font-family: fantasy;
+    font-size: 28px;
+    color: goldenrod;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    float: left;
+    margin-left: 60px;
+    
+}
+
+p2 {
+    font-family: fantasy;
+    font-size: 28px;
+    color: goldenrod;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    float: right;
+    margin-right: 60px;
+}
+h4 {
+    background-color: rgb(255, 255, 0, 0.2);
+    color:rgba(14, 19, 44,);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 40px;
+    margin: auto;
+    margin-top:13px;
+    margin-bottom: 20px;
+    border: 8px double grey; 
+    width: 50px;
+    float: left;
+    margin-left: 60px;
+}
+
+h5 {
+    background-color: rgb(255, 255, 0, 0.2);
+    color:rgba(14, 19, 44,);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 40px;
+    margin: auto;
+    margin-top:13px;
+    margin-bottom: 20px;
+    border: 8px double grey; 
+    width: 50px;
+    float: right;
+    margin-right: 60px;
+}
+
+.score-el {
+    background-color: rgba(44, 37, 14, 0.9);
+    color:burlywood;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    border: 3px solid goldenrod;
+    font-weight: bold;
+    width: 200px;
+    height: 30;
+    margin-bottom: 150px;
+    float: initial;
+    border-radius: 20px;
+    margin: auto;
+ }
+
+ .score-el:hover{
+    color:burlywood;
+    background: rgba(14, 19, 44, 0.9);
+    text-shadow: 1px 1px 10px goldenrod;
+    transition: 0.3s;
+}
+ #foul-el1{
+    background-color: rgb(255, 255, 0, 0.2);
+    color: rgba(14, 19, 44,.9);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 10px;
+    border: 2px solid burlywood;
+    width: 20px;
+}
+#foul-el2{
+    background-color: rgb(255, 255, 0, 0.2);
+    color: rgba(14, 19, 44,.9);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 10px;
+    border: 2px solid burlywood;
+    width: 20px;
+}
+
+#game-clock {
+    background-color: rgb(255, 255, 0, 0.2);
+    color: rgba(14, 19, 44,.9);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 18px;
+    margin: auto;
+    margin-top:1px;
+    margin-bottom: 20px;
+    border: 2px solid burlywood;
+    width: 60px;
+}
+#shot-clock{
+    background-color: rgb(255, 255, 0, 0.2);
+    color: rgba(14, 19, 44,.9);
+    text-shadow: 0px 0px 10px goldenrod;
+    font-size: 20px;
+    margin: auto;
+    margin-top:1px;
+    margin-bottom: 20px;
+    border: 2px solid burlywood;
+    width: 40px;
+}
+
+
+
+button {
+    color: rgba(14, 19, 44, 0.9);
+    background-color: rgba(44, 37, 14, 0.9);
+    text-shadow: 1px 1px 10px goldenrod;
+    font-weight: bold;
+    width: 45px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 28px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    color:burlywood;
+    background: rgba(14, 19, 44, 0.9);
+    text-shadow: 1px 1px 10px goldenrod;
+    transition: 0.5s;
+}
+
+#all-clock-btn{
+    border: 8px double burlywood;
+    font-size: 10px;
+    width: 80px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+
+}
+#increment-btn1 {
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: left;
+    margin-left: 3%;
+}
+#increment-btn2 {
+  
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: left;
+    margin-left: 3%;
+}
+
+#increment-btn3 {
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: left;
+    margin-left: 3%;
+}
+
+#increment-btn4 {
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: right;
+    margin-right: 3%;
+}
+#increment-btn5 {
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: right;
+    margin-right: 3%;
+
+}
+#increment-btn6 {
+    border: 8px double burlywood;
+    font-size: 15px;
+    float: right;
+    margin-right: 3%;
+
+}
+
+
+.container3{
+    background-color: rgba(14, 19, 44, 0.9);
+    max-width: 280px;
+    height: 90px;
+    margin: auto;
+    border: 10px double goldenrod;
+    border-radius: 80px;
+    /* outline-style: double; */
+    /* outline-color: black; */
+    /* outline-width: 10px; */
+}
+ 
+.container2 {
+    background-color:rgba(14, 19, 44, .9);
+    max-width: 390px;
+    margin: auto;
+    height: 40px;
+    border: 8px solid rgba(14, 19, 44, 0.9);
+    border-radius: 8px;
+    margin-bottom: 5px;
+   }
+
+#game-clock-btn {
+    border: 8px double burlywood;
+    font-size: 10px;
+    width: 80px;
+}
+
+#shot-clock-btn {
+    border: 8px double burlywood;
+    font-size: 9px;
+    width: 60px;
+}
+
+#reset-clock-btn {
+    border: 8px double burlywood;
+    font-size: 14px;
+    width: 80px;
+    margin-bottom: 10px;
+
+}
+
+#foul1-btn {
+    border: 8px double burlywood;
+    font-size: 10px;
+    width: 65px;
+    float: left;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+#foul2-btn {
+    border: 8px double burlywood;
+    font-size: 10px;
+    width: 65px;
+    float: right;
+    margin-right: 28px;
+    margin-top: 25px;
+}
