@@ -70,10 +70,14 @@ function updateGameClock() {
 }
 
 
-function resetGameClock(seconds= 60*12) {
-  gameClock= seconds;
-  gameClockEl.textContent =gameClock;
-  gameClockEl.style.color = "default"
+function resetGameClock(seconds = 60 * 12) {
+  gameClock = seconds;
+
+  const minutes = Math.floor(gameClock / 60);
+  const secs = gameClock % 60;
+  gameClockEl.textContent = `${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+  gameClockEl.style.color = ""; // reset to default
   gameClockEl.style.animation = "";
   gameClockEl.style.fontWeight = "normal";
 }
