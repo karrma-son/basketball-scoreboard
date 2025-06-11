@@ -35,7 +35,7 @@ h1 {
     width:200px ;
 
 }
-p1 {
+.home {
     font-family: fantasy;
     font-size: 28px;
     color: goldenrod;
@@ -45,7 +45,7 @@ p1 {
     
 }
 
-p2 {
+.away {
     font-family: fantasy;
     font-size: 28px;
     color: goldenrod;
